@@ -1,6 +1,7 @@
-...
+---
 title: Tito the Tick
-...
+mainCharacter: Tito the Tick
+---
 
 # Tito the Tick
 
