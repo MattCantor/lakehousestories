@@ -1,6 +1,6 @@
----
+...
 title: Tito the Tick
----
+...
 
 # Tito the Tick
 
