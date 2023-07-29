@@ -1,3 +1,7 @@
+---
+title: Tito the Tick
+---
+
 # Tito the Tick
 
 Tito the Tick lives in the woods around the lakehouse.
