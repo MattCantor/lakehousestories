@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en" class="h-100">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Stories</title>
+    </head>
+    <body>
+        <header>
+            <div class = "navbar navbar-expand navbar-dark bg-dark">
+                <div class = "container-fluid">
+                    <a href="index.html" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Lakehouse Stories</span>
+                    </a>
+                    <ul class = "navbar-nav me-auto">
+                        <li class = "nav-item">
+                            <a href = "chapters.html" class = "nav-link align-middle px-5">
+                                <span class = ms-1 d-none d-sm-inline">All Chapters</span>
+                             </a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "characters.html" class = "nav-link align-middle px-0">
+                                <span class = ms-1 d-none d-sm-inline">All Characters</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class = "container-fluid">
+                <div class = "row flex-nowrap">
+                    <div class = "col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link align-middle px-0">
+                                        <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                        <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Main Characters</span> </a>
+                                    <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                        <li class="w-100">
+                                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Patty the Panther</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Rebecca the Raccoon</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Seymore the Snake</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                        <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Supporting Cast</span></a>
+                                    <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                        <li class="w-100">
+                                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Dolly the Deer</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Penny the Porcupine</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class = "col py-3" id = "story"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script type="module">
+    /*let queryVariable = function getQueryVariable(variable) {
+        let query = window.location.search.substring(1);
+        let vars = query.split("&");
+        for (let i=0; i<vars.length; i++) {
+            let pair = vars[i].split("=");
+            if(pair[0] == variable){return pair[1];}
+        }
+        return(false);
+    };*/
+
+
+    import {stories} from "./stories.js";
+
+    let story = stories[4];
+
+    let header = "<h3>" + story["title"] + "</h3>"
+
+    let synopsis = `<p class = "lead">` + story["synopsis"] + "</p>";
+
+    let storyText = story["story"];
+    let text = "";
+
+    for (let i = 0; i < storyText.length; i++) {
+        text += "<p>" + storyText[i] + "</p>";
+            };
+
+
+    document.getElementById("story").innerHTML = header + synopsis + text;
+    </script>
+
+    </body>
+</html>
+
