@@ -1,0 +1,126 @@
+[33mcommit 183a0caf5f03ffef96e98043fb3d73506c7e9987[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 024dd23 22d87fa
+Author: Matt Cantor <mcantor@fenwick.com>
+Date:   Thu Aug 3 10:43:02 2023 -0400
+
+    Merge branch 'main' of https://github.com/MattCantor/lakehousestories
+
+[33mcommit 024dd23d6b86ef79915df1a747171c18cc027573[m
+Author: Matt Cantor <mcantor@fenwick.com>
+Date:   Thu Aug 3 10:10:07 2023 -0400
+
+    Initial commit from Create Next App
+
+[33mcommit 22d87fad333ad2fc4cb475e36658eb9ebd0a5f6c[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Sat Jul 29 17:28:24 2023 -0400
+
+    Update TitoTheTick.md
+
+[33mcommit 4c3ddb769d1d58474a2bd06ffac9c541c3dd12bd[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Sat Jul 29 17:27:36 2023 -0400
+
+    Update TitoTheTick.md
+
+[33mcommit 6f50a1339fc42888d78c3537a1f1b39a83796fd0[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Sat Jul 29 17:24:53 2023 -0400
+
+    Update TitoTheTick.md
+
+[33mcommit 944e29c026aa2d69ee219802356c9cffda41992c[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Sat Jul 29 17:19:04 2023 -0400
+
+    Create WallyRunsForMayor.md
+
+[33mcommit 33a532ef0196a2dae7e0c24072230b29a2b4ddda[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Sat Jul 29 17:17:36 2023 -0400
+
+    Create TitoTheTick.md
+
+[33mcommit f05f6f5f29f6c3cbcfb2bf93a0bdaa2c3612210e[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Sat Jul 29 17:14:26 2023 -0400
+
+    Create WallyRunsForMayor.md
+
+[33mcommit 6d8b4c819ad9082bbba8e9423631e247ef221f8c[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:42:12 2023 -0400
+
+    Update index.html
+
+[33mcommit 01b8ff8c147cc9d0b6ea055fa9e05d8c7b007176[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:39:42 2023 -0400
+
+    Update characters.html
+
+[33mcommit 119635703a220d58318cb1a3d4c3fd5d1ab3f3e7[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:38:12 2023 -0400
+
+    Update story.html
+
+[33mcommit f0924717f0c1e1536c1dc2ec779850b43ca352b1[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:37:13 2023 -0400
+
+    Update chapters.html
+
+[33mcommit 3f4641b93b3cfb915780bf5277d17dc26be13cb7[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:34:11 2023 -0400
+
+    Create story.html
+
+[33mcommit 936d2b4e7ece7d3f3ffc540f5200098c32f0a7f2[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:33:43 2023 -0400
+
+    Create styles.css
+
+[33mcommit 96efa59b04991afccfa784b0e16f5f21418f931e[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:29:35 2023 -0400
+
+    Create Emo
+
+[33mcommit dc177c41f2b581d89be6742d937014307ead5db7[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:28:57 2023 -0400
+
+    Add files via upload
+
+[33mcommit d9a1db99d58b50bf7526dfe6012baf83614a0ec0[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:26:21 2023 -0400
+
+    Add files via upload
+
+[33mcommit 187df5b171a94ced6344e9a6a42e012d5f0edb63[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:24:21 2023 -0400
+
+    Create characters.html
+
+[33mcommit 7e6dc6c7accbb76a69ef52c73f7d6909ef96644f[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:24:06 2023 -0400
+
+    Create chapters.html
+
+[33mcommit 63b3cede626038652a75be2372d76c07f0cc57f5[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Mon Jul 24 10:22:42 2023 -0400
+
+    Create index.html
+
+[33mcommit 9b46a239b3040e6f3471512c9c5a6392cbfec193[m
+Author: Matthew Cantor <32492790+MattCantor@users.noreply.github.com>
+Date:   Sun May 21 21:03:30 2023 -0400
+
+    Add files via upload
